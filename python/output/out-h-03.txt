@@ -1,0 +1,23 @@
+// Output for command: mp5-1.aig 3
+
+Step 0:
+ * OPEN: [0]
+ * CLOSED: []
+ * TO EVALUATE: 0
+
+Step 1:
+ * OPEN: [1, 2]
+ * CLOSED: [0]
+ * TO EVALUATE: 1
+
+Step 2:
+ * OPEN: [2, 3]
+ * CLOSED: [0, 1]
+ * TO EVALUATE: 2
+
+Step 3:
+ * OPEN: [3]
+ * CLOSED: [0, 1, 2]
+ * TO EVALUATE: 3 - GOAL NODE
+
+Best path found: 0 1 3; cost: 1 + 5 = 6
