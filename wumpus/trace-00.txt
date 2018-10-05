@@ -1,0 +1,27 @@
+f-3     (sq (x 1) (y 3) (s nil) (b nil) (g nil) (w nil) (p nil) (t nil))
+f-4     (sq (x 1) (y 4) (s nil) (b nil) (g nil) (w nil) (p nil) (t nil))
+f-6     (sq (x 2) (y 2) (s nil) (b nil) (g nil) (w nil) (p nil) (t nil))
+f-7     (sq (x 2) (y 3) (s nil) (b nil) (g nil) (w nil) (p nil) (t nil))
+f-8     (sq (x 2) (y 4) (s nil) (b nil) (g nil) (w nil) (p nil) (t nil))
+f-9     (sq (x 3) (y 1) (s nil) (b nil) (g nil) (w nil) (p nil) (t nil))
+f-10    (sq (x 3) (y 2) (s nil) (b nil) (g nil) (w nil) (p nil) (t nil))
+f-11    (sq (x 3) (y 3) (s nil) (b nil) (g nil) (w nil) (p nil) (t nil))
+f-12    (sq (x 3) (y 4) (s nil) (b nil) (g nil) (w nil) (p nil) (t nil))
+f-13    (sq (x 4) (y 1) (s nil) (b nil) (g nil) (w nil) (p nil) (t nil))
+f-14    (sq (x 4) (y 2) (s nil) (b nil) (g nil) (w nil) (p nil) (t nil))
+f-15    (sq (x 4) (y 3) (s nil) (b nil) (g nil) (w nil) (p nil) (t nil))
+f-16    (sq (x 4) (y 4) (s nil) (b nil) (g nil) (w nil) (p nil) (t nil))
+f-17    (smell 1 1 false)
+f-18    (breeze 1 1 false)
+f-19    (glitter 1 1 false)
+f-20    (wumpus 1 1 false)
+f-21    (pit 1 1 false)
+f-22    (gold 1 1 false)
+f-31    (sq (x 2) (y 1) (s nil) (b nil) (g nil) (w false) (p false) (t false))
+f-32    (sq (x 1) (y 2) (s nil) (b nil) (g nil) (w false) (p false) (t false))
+f-33    (sq (x 1) (y 1) (s false) (b false) (g false) (w false) (p false) (t nil))
+For a total of 22 facts.
+
+The important obesrvations are about edge squares:
+ * [1,2] - no wumpus, 		no pit, 		no gold
+ * [2,1] - no wumpus, 		no pit, 		no gold
